@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Cloudappi logo" src="./assets/cloudappi-logo.png">
+    <Users title="User List"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Users from './components/Users.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Users
   }
 }
 </script>
@@ -22,7 +22,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top:10px;
+  background-color: #c4f5c4;
+  margin:0px;
+  padding-bottom:30px;
 }
 </style>
